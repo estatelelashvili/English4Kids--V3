@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-container{
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    background-color: aquamarine;
+}
+
+.card{
+    border: 1px solid skyblue;
+    width: fit-content;
+    border-radius: 5px;
+    background-color: pink;
+    cursor: pointer;
+}
+
+.card-name{
+    font-size: 16px;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.category-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    gap: 50px;
+
+}
+
+@media (min-width: 1280px) {
+    /* *{
+        background-color: red;
+    } */
+
+    .card-img{
+        width: 256px;
+        height: 203px;
+    }
+}
+
